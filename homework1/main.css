@@ -1,23 +1,19 @@
 h1{
     color: darkgray
 }
-
 h2{
     color: darkgray
 }
-
 p{
     font-size: 20px;
     width: 80%;
 }
-
 .first{
        text-align: center;
        display: flex;
        flex-direction: column;
        align-items: center
 }
-
 .second{
     align-items: center;
     display: flex;
@@ -27,7 +23,6 @@ p{
 .third{
     background-image: url("img/image.avif");
     background-size: cover;
-
 }
 .button1{
     display: flex;
