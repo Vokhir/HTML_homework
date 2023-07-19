@@ -35,4 +35,5 @@ a{
 html {
     overflow-y: hidden;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
