@@ -1,0 +1,28 @@
+.h50{
+    height: 50vh;
+}
+.w100{
+    width: 100vw;
+}
+.w96{
+    width: 98vw;
+}
+.flexColumn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.color1{
+    background-color: black;
+}
+.color2{
+    background-color: grey;
+}
+.fontColor{
+    color: white;
+}
+.margin0{
+    margin: 0;
+}
