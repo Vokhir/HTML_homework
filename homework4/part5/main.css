@@ -1,0 +1,27 @@
+.displayFlex{
+    display: flex;
+}
+.column{
+    flex-direction: column;
+}
+.contentCentre{
+    justify-content: center;
+    align-items: center;
+}
+.left{
+    justify-content: left;
+}
+.w{
+    width: 600px;}
+.h{
+    height: 230px;
+}
+.h2{
+    height: 200px;
+}
+.margin{
+    margin-bottom: 2px;
+}
+.bc{
+    background-color: greenyellow;
+}

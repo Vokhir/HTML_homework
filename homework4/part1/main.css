@@ -1,0 +1,56 @@
+main{
+    width: 400px;
+    height: 600px;
+    border: 1px solid pink;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.bottom{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    height: 20%;
+    justify-content: center;
+    font-size: 18px;
+    border: 1px solid lightblue;
+}
+.top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    height: 75%;
+    border: 1px solid lightblue;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+form input{
+    margin-bottom: 5px;
+    height: 40px;
+    width: 80%;
+}
+.top img{
+    margin-top: 40px;
+    width: 70%;
+}
+.submit{
+    color: white;
+    background-color: cornflowerblue;
+    border: none;
+    border-radius: 10px;
+}
+.top p{
+    color: cornflowerblue;
+    font-size: 20px;
+}
+.top a{
+    font-size: 20px;
+    text-decoration: none;
+    margin-bottom: 5px;
+}

@@ -1,0 +1,82 @@
+.h25{
+    height: 25vh;
+}
+.h50{
+    height: 50vh;
+}
+.h40{
+    height: 40vh;
+}
+.h100{
+    height: 100vh;
+}
+.h60{
+    height: 60vh;
+}
+.h25{
+    height: 25vh;
+}
+.h20{
+    height: 20vh;
+}
+.h34{
+    height: 34%;
+}
+.h10{
+    height: 10vh;
+}
+.w100{
+    width: 100vw;
+}
+.w100p{
+    width: 100%;
+}
+.w20{
+    width: 20vw;
+}
+.w15{
+    width: 14vw;
+}
+.w30{
+    width: 42vw;
+}
+.w60{
+    width: 60vw;
+}
+.w40{
+    width: 40vw;
+}
+.w34{
+    width: 34%;
+}
+.displayFlex{
+    display: flex;
+}
+.column{
+    flex-direction: column;
+}
+.contentCentre{
+    justify-content: center;
+    align-items: center;
+}
+.margin0{
+    margin:0;
+}
+.bc1{
+    background-color: #817B7B;
+}
+.bc2{
+    background-color: pink;
+}
+.bc3{
+    background-color: rebeccapurple;
+}
+.bc4{
+    background-color: green;
+}
+.bc5{
+    background-color: darkgray;
+}
+.bc6{
+    background-color: #3D6FB4;
+}

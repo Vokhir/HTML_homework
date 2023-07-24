@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>page</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<div class="displayFlex column contentCentre h w bc">
+    <h1>Заповніть поля анкети</h1>
+    <div class="displayFlex left column h200 w">
+        <form class="displayFlex column left">
+            <label class="margin" for="user">Ваше ім'я: <input type="text" name="name" id="user"></label>
+            <label class="margin" for="secondName">Ваше прізвище: <input type="text" name="secondName" id="secondName"></label>
+            <label class="margin">Ваша стать:
+                <input type="radio" name="sex" id="female"><label for="female">Жіноча</label>
+                <input type="radio" name="sex" id="male"><label for="male">Чоловіча</label>
+            </label>
+            <label class="margin">Послугами якої сотової компанії Ви користуєтеся:
+                <br>
+                <input type="checkbox" name="KyivStar" id="ks"><label for="ks">KyivStar</label>
+                <input type="checkbox" name="mts" id="mts"><label for="mts">MTS</label>
+                <input type="checkbox" name="life" id="life"><label for="life">Life:)</label>
+                <input type="checkbox" name="peopleNet" id="peoplenet"><label for="peoplenet">PeopleNet</label>
+                <input type="checkbox" name="utel" id="utel"><label for="utel">Utel</label>
+            </label>
+            <div class="displayFlex">
+                <input type="submit" name="enter" value="Надіслати анкету" id="enter">
+                <input type="reset" name="reset" value="Очистити бланк" id="reset">
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>
