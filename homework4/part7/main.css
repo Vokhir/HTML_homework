@@ -1,0 +1,49 @@
+.w500{
+    width: 500px;
+}
+.h200{
+    height: 300px;
+}
+.w250{
+    width: 300px;
+}
+.w240{
+    width: 240px;
+}
+.w100{
+    width: 100px;
+}
+.w280{
+    width: 280px;
+}
+.h30{
+    height: 30px;
+}
+.h180{
+    height: 250px;
+}
+.bc{
+    background-color: cornflowerblue;
+}
+.bc1{
+    background-color: white;
+}
+.borderBttm{
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+.marginRight{
+    margin: 5px;
+}
+.displayFlex{
+    display: flex;
+    flex-direction: column;
+}
+.contentCentre{
+    justify-content: space-around;
+    align-items: center;
+}
+.contentLeft{
+    justify-content: flex-end;
+    align-content: flex-end;
+}

@@ -9,30 +9,21 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-<div class="displayFlex column contentCentre h w bc">
-    <h1>Заповніть поля анкети</h1>
-    <div class="displayFlex left column h200 w">
-        <form class="displayFlex column left">
-            <label class="margin" for="user">Ваше ім'я: <input type="text" name="name" id="user"></label>
-            <label class="margin" for="secondName">Ваше прізвище: <input type="text" name="secondName" id="secondName"></label>
-            <label class="margin">Ваша стать:
-                <input type="radio" name="sex" id="female"><label for="female">Жіноча</label>
-                <input type="radio" name="sex" id="male"><label for="male">Чоловіча</label>
-            </label>
-            <label class="margin">Послугами якої сотової компанії Ви користуєтеся:
-                <br>
-                <input type="checkbox" name="KyivStar" id="ks"><label for="ks">KyivStar</label>
-                <input type="checkbox" name="mts" id="mts"><label for="mts">MTS</label>
-                <input type="checkbox" name="life" id="life"><label for="life">Life:)</label>
-                <input type="checkbox" name="peopleNet" id="peoplenet"><label for="peoplenet">PeopleNet</label>
-                <input type="checkbox" name="utel" id="utel"><label for="utel">Utel</label>
-            </label>
-            <div class="displayFlex">
-                <input type="submit" name="enter" value="Надіслати анкету" id="enter">
-                <input type="reset" name="reset" value="Очистити бланк" id="reset">
-            </div>
-        </form>
-    </div>
+<div class="w500 h">
+    <form class="w500 h displayFlex column contentCentre">
+        <div class="w500 h20 displayFlex contentCentre marginBttm">
+            <label for="user"></label>
+            <input type="text" name="name" id="user" placeholder="First name" required>
+            <label for="user2"></label>
+            <input type="text" name="name2" id="user2" placeholder="Last name" required>
+        </div>
+        <label for="email"></label>
+        <input type="email" name="email" id="email" class="marginBttm" placeholder="Email address"  required>
+        <label for="password"></label>
+        <input type="password" name="password" id="password" class="marginBttm" minlength="6" placeholder="Password (6 or more characters)" required>
+        <label class="fontSize marginBttm10">By clicking Join Now, you agree to LinkedIn's <a href="index.html">User Agreement</a>, <a href="index.html">Privacy Policy</a> and <a href="index.html">Cookie Police</a></label>
+        <input type="submit" name="submit" value="Join now" id="submit" class="bc w250">
+    </form>
 </div>
 </body>
 </html>
