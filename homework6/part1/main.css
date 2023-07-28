@@ -1,0 +1,41 @@
+header{
+    height: 33vh;
+}
+main{
+    height: 65vh;
+}
+.w100{
+    width: 99vw;
+}
+.margin{
+    margin: 0.25vh 0.25vw 0.25vh 0.25vw;
+}
+.displayFlex{
+    display: flex;
+}
+.border{
+    border: 1px solid cornflowerblue;
+    background-color: lightgray;
+    border-radius: 20px;
+}
+.margin0{
+    margin: 0;
+}
+.h64{
+    height: 64vh;
+}
+.w68{
+    width: 63vw;
+}
+.w34{
+    width: 34vw;
+}
+.center{
+    justify-content: space-between;
+    align-items: center;
+}
+.content{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}

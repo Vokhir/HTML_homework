@@ -1,0 +1,28 @@
+@media screen and (max-width: 420px){
+    header{
+        height: 19vh;
+        margin-top: 1vh;
+    }
+    main{
+        flex-direction: column;
+        height: 79vh;
+    }
+    .g30{
+        width: 98vw;
+        height: 38vh;
+    }
+    .g31{
+        width: 98vw;
+        height: 19vh;
+    }
+    .w33{
+        width: 98vw;
+        height: 19vh;
+    }
+    .w20{
+        width: 32vw;
+        height: 19vh;}
+    .w63{
+    height: 59vh;
+    width: 98vw;  }
+}
